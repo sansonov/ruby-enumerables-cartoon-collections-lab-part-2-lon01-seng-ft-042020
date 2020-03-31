@@ -18,7 +18,7 @@ def summon_captain_planet(planeteer_calls)
   #   end
   #   return new
   
-  planeteer_calls.each do |element|
+  planeteer_calls.map do |element|
   element.capitalize!
   end
 end
