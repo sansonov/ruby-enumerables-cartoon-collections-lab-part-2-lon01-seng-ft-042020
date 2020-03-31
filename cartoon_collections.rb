@@ -28,6 +28,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   planeteer_calls.find_all do |elements|
     elements.length > 4
+  end
 end
 
 def find_valid_calls(planeteer_calls)
